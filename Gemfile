@@ -12,3 +12,5 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-include-cache", "~> 0.2.1"
+
+gem 'json', '>= 2.19.2'

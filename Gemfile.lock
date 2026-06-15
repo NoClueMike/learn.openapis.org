@@ -12,11 +12,15 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    ffi (1.17.3)
     ffi (1.17.3-arm64-darwin)
     ffi (1.17.3-x64-mingw-ucrt)
     ffi (1.17.3-x86_64-darwin)
     ffi (1.17.3-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
+    google-protobuf (4.33.2)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.33.2-arm64-darwin)
       bigdecimal
       rake (>= 13)
@@ -66,7 +70,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.18.0)
+    json (2.19.9)
     just-the-docs (0.11.1)
       jekyll (>= 3.8.5)
       jekyll-include-cache
@@ -92,6 +96,9 @@ GEM
     rouge (4.7.0)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
+    sass-embedded (1.97.1)
+      google-protobuf (~> 4.31)
+      rake (>= 13)
     sass-embedded (1.97.1-arm64-darwin)
       google-protobuf (~> 4.31)
     sass-embedded (1.97.1-x64-mingw-ucrt)
@@ -108,6 +115,7 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-23
+  ruby
   x64-mingw-ucrt
   x86_64-darwin-23
   x86_64-linux
@@ -117,6 +125,7 @@ DEPENDENCIES
   jekyll-include-cache (~> 0.2.1)
   jekyll-remote-theme
   jekyll-sitemap (~> 1.4)
+  json (>= 2.19.2)
   just-the-docs (~> 0.11.1)
   webrick (~> 1.9)
 
